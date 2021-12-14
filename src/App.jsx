@@ -1,13 +1,18 @@
 import React from 'react';
+
+import Header from './components/Header';
+import MainContent from './components/MainContent';
+import Footer from './components/Footer';
 import './App.css';
 
 const App = () => {
   return (
     <main>
-     <h1>Welcome to React</h1>
+      <Header />
+      <MainContent />
+      <Footer />
     </main>
   );
-}
+};
 
 export default App;
-
